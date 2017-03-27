@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: weather-app-17
+  host: weather-app-17
+  disk_quota: 1024M
+  services:
+  - Natural Language Classifier-ih
+  - Weather Company Data-xk
